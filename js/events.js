@@ -8,7 +8,7 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('#typing').on("keydown", getKey(key))
+  $('#typing').on("keydown", getKey())
 }
 
 function getKey(key) {
