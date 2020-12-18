@@ -21,7 +21,7 @@ function pressIt() {
 
 
 $(document).ready(function() {
-  getIt()
-  frameIt()
+  getIt(),
+  frameIt(),
   pressIt()
 });
