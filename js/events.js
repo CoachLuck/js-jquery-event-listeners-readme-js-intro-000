@@ -9,6 +9,12 @@ function frameIt() {
   })
 }
 
+function pressIt() {
+  $('$typing').on("keydown", function {
+    if ()
+  })
+}
+
 
 $(document).ready(function(){
 
