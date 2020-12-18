@@ -15,6 +15,9 @@ function pressIt() {
   })
 }
 
+function submitIt() {
+  $('input[type="submit"]')
+}
 
 
 $(document).ready(function() {
