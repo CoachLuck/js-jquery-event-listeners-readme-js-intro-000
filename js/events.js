@@ -8,14 +8,14 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('#typing').on("keydown", getKey())
+  $('#typing').on("keydown", function(key) {
+    if (key.which === 71) {
+      alert('G was pressed')
+    }
+  })
 }
 
-function getKey(key) {
-  if (key.which === 71) {
-    alert('G was pressed')
-  }
-}
+
 
 $(document).ready(function() {
   getIt(),
