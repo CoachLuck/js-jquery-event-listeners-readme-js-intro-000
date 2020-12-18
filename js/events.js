@@ -12,7 +12,7 @@ function frameIt() {
 function pressIt() {
   $('$typing').on("keydown", function(key) {
     if key === "G" {
-      alert("You pressed 'G'")
+      alert("'s was pressed'")
     }
   })
 }
